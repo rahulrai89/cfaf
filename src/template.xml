@@ -20,9 +20,7 @@
 </b:if>
 <!-- End https://www.codeforafiction.com/: Changing the Blogger Title Tag  -->
 <!--[if lt IE 9]>
-<script type="text/javascript">
-
-</script>
+<script src="https://cdn.jsdelivr.net/gh/rahulrai89/cfaf/secure/js/IE9.js" />
 <![endif]-->
 
 /*
@@ -31,7 +29,7 @@ Blogger Template Style
 Name:   Code for a Fiction
 Author: Rahul Rai
 ----------------------------------------------- */
-========================== css ===================
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rahulrai89/cfaf/secure/css/styles.css"/>
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js' type='text/javascript'/>
 <link href='https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/styles/base16/vulcan.css' rel='stylesheet'/>
 <script src='https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/highlight.min.js'/>
@@ -39,8 +37,8 @@ Author: Rahul Rai
 <!-- and it's easy to individually load additional languages -->
 <script src='https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/languages/powershell.min.js'/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.4.0/jquery-migrate.js" integrity="sha512-5O7bWBuLDKHYz2EinRJoudR8R2veO4wvu3FJNgFOzbXFZNkfiqJmu2U/G1n8/ORBn1+edL0caoHVBos8/TstSQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-====================================
-</script>
+<script src="https://cdn.jsdelivr.net/gh/rahulrai89/cfaf/secure/js/scripts.js" />
+
 
 <b:if cond='data:blog.pageType == &quot;static_page&quot;'>
 <style type='text/css'>
