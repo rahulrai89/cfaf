@@ -1,0 +1,44 @@
+{
+  "name": "cfaf",
+  "version": "1.0.0",
+  "description": "A project using Gulp to minify js/css",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulrai89/cfaf.git"
+  },
+  "keywords": [
+    "gulp",
+    "automation",
+    "build"
+  ],
+  "author": "Rahul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahulrai89/cfaf/issues"
+  },
+  "homepage": "https://github.com/rahulrai89/cfaf#readme",
+  "browserslist": [
+    "ie >= 10",
+    "ie_mob >= 10",
+    "ff >= 30",
+    "chrome >= 34",
+    "safari >= 7",
+    "opera >= 23",
+    "ios >= 7",
+    "android >= 4.4",
+    "bb >= 10"
+  ],
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-csso": "^4.0.1",
+    "del": "^6.0.0",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.43.4",
+    "gulp-uglify": "^3.0.2"
+  }
+}
