@@ -33,16 +33,14 @@ Author: Rahul Rai
 
 
 <link href='https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/styles/base16/vulcan.css' rel='stylesheet'/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.0/flexslider.css" integrity="sha512-5TwisNjnLExfVseLyXioowlnekCqEdD/M9yNB6CFUnQlcrrnuEaB4iPR/WLCZZept2vnfRSfRtd4fZhfSDdhvw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js' type='text/javascript'/>
+
+<!-- Highlighter.js-->
 <script src='https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/highlight.min.js'/>
-  
-<!-- and it's easy to individually load additional languages -->
 <script src='https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/languages/powershell.min.js'/>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.4.0/jquery-migrate.js" integrity="sha512-5O7bWBuLDKHYz2EinRJoudR8R2veO4wvu3FJNgFOzbXFZNkfiqJmu2U/G1n8/ORBn1+edL0caoHVBos8/TstSQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.0/jquery.flexslider.js" integrity="sha512-CjY4N/jrfF4rlLFSN+1NbKIwatpseEP9MlVt3mnnO5s9XrV1dtGMlC4l3ziXP7ohXtUQ9ahY2G8RYu/3SDtNUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.4.0/jquery-migrate.js" referrerpolicy="no-referrer"></script>
 <script src="https://cdn.jsdelivr.net/gh/rahulrai89/cfaf/secure/js/scripts.js" />
 
 
