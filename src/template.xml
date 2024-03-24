@@ -33,6 +33,8 @@ Author: Rahul Rai
 
 
 <link href='https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/styles/base16/vulcan.css' rel='stylesheet'/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.0/flexslider.css" referrerpolicy="no-referrer" />
+<link href='https://cdn.jsdelivr.net/gh/rahulrai89/cfaf/secure/css/styles.css' rel='stylesheet'/>
 
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js' type='text/javascript'/>
 
@@ -41,6 +43,7 @@ Author: Rahul Rai
 <script src='https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/languages/powershell.min.js'/>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.4.0/jquery-migrate.js" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.0/jquery.flexslider.js" referrerpolicy="no-referrer"></script>
 <script src="https://cdn.jsdelivr.net/gh/rahulrai89/cfaf/secure/js/scripts.js" />
 
 
