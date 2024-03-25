@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
-<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<html b:js='false' b:version='2' class='v2' expr:dir='data:blog.languageDirection' lang="en" xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <head>
 <meta charset='UTF-8'/>
 <meta content='width=device-width, initial-scale=1.0' name='viewport'/>
@@ -22,18 +22,18 @@
 <!--[if lt IE 9]>
 <script src="https://cdn.jsdelivr.net/gh/rahulrai89/cfaf/secure/js/IE9.js" />
 <![endif]-->
-<b:skin>
+<b:skin><![CDATA[
 /*
 -----------------------------------------------
 Blogger Template Style
 Name:   Code for a Fiction
 Author: Rahul Rai
 ----------------------------------------------- */
-</b:skin>
+]]></b:skin>
 
 
 <link href='https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/styles/base16/vulcan.css' rel='stylesheet'/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.0/flexslider.css" referrerpolicy="no-referrer" />
+<link href='https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.0/flexslider.css' referrerpolicy='no-referrer' rel='stylesheet'/>
 <link href='https://cdn.jsdelivr.net/gh/rahulrai89/cfaf/secure/css/styles.css' rel='stylesheet'/>
 
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js' type='text/javascript'/>
@@ -42,9 +42,9 @@ Author: Rahul Rai
 <script src='https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/highlight.min.js'/>
 <script src='https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/languages/powershell.min.js'/>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.4.0/jquery-migrate.js" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.0/jquery.flexslider.js" referrerpolicy="no-referrer"></script>
-<script src="https://cdn.jsdelivr.net/gh/rahulrai89/cfaf/secure/js/scripts.js" />
+<script referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.4.0/jquery-migrate.min.js'/>
+<script referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.0/jquery.flexslider.min.js'/>
+<script src='https://cdn.jsdelivr.net/gh/rahulrai89/cfaf/secure/js/scripts.js'/>
 
 
 <b:if cond='data:blog.pageType == &quot;static_page&quot;'>
@@ -120,7 +120,7 @@ Author: Rahul Rai
  Happy blogging from Code for a fiction :)
 -->
 <li class='social-profiles-widget'>
-<a href='https://twitter.com/hcsrahul' target='_blank'><i class='fa fa-twitter'/></a><a href='https://facebook.com/hcsrahul' target='_blank'><i class='fa fa-facebook-f'/></a><a href='https://instagram.com/hcsrahul' target='_blank'><i class='fa fa-instagram'/></a>
+<a aria-label='Twitter' href='https://twitter.com/hcsrahul' target='_blank'><i class='fa fa-twitter'/></a><a aria-label='Facebook' href='https://facebook.com/hcsrahul' target='_blank'><i class='fa fa-facebook-f'/></a><a aria-label='Instagram' href='https://instagram.com/hcsrahul' target='_blank'><i class='fa fa-instagram'/></a>
 </li>
 </ul>
 </div>
@@ -266,7 +266,7 @@ user is not using shrink to fit then we expand the header.
 
 	<!-- Slide 1 Code Start -->
 	<li>
-		<a href='#'><img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKTpoaCxzktHaqFUfyB_rw3mhzLXwZpPlO4ayzwoa-x2YNzRwIrDeLXUZRRPY4cwJWeFmw0fjTF-4n9-ycS_Ug721rj51pY1WMrQMTYIdLhb67uQAwF1odd7zR6UHweoxTYlwivI5pq6-PRsY4C6yJpa4xzsGzMcF8jqSAo5DmgZgf9mc/s1600/1.png'/></a>
+		<a href='#'><img alt='Baner imager of Code for a fiction' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKTpoaCxzktHaqFUfyB_rw3mhzLXwZpPlO4ayzwoa-x2YNzRwIrDeLXUZRRPY4cwJWeFmw0fjTF-4n9-ycS_Ug721rj51pY1WMrQMTYIdLhb67uQAwF1odd7zR6UHweoxTYlwivI5pq6-PRsY4C6yJpa4xzsGzMcF8jqSAo5DmgZgf9mc/s1600/1.png'/></a>
 		<div class='flex-slideinfo'>
 			<h3><a href='#'>Welcome to CODE OF A FICTION</a></h3>
 			<p>Syntax of Imagination&#8221; melds the precision of coding with the vastness of creative thought, crafting a digital narrative where every command is a creation.</p>
@@ -665,7 +665,7 @@ BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;, &#39;<data:post.co
   <b:if cond='data:post.thumbnailUrl'>
 	<div class='mobile-index-thumbnail'>
 	  <div class='Image'>
-		<img expr:src='data:post.thumbnailUrl'/>
+		<img expr:alt='data:post.title' expr:src='data:post.thumbnailUrl'/>
 	  </div>
 	</div>
   </b:if>
@@ -914,7 +914,7 @@ Share: <a expr:href='&quot;https://www.facebook.com/share.php?v=4&amp;src=bm&amp
 <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
 <b:if cond='data:blog.pageType != &quot;item&quot;'>
 <div class='readmore'>
-<a expr:href='data:post.url'>Read More</a>
+<a expr:aria-label='data:post.title' expr:href='data:post.url'>Read More</a>
 </div>
 </b:if>
 </b:if>
@@ -1311,7 +1311,7 @@ window.goog.comments.loadQueue.push(render);
 <div class='widget-container'>
 <div id='search' title='Type and hit enter'>
     <form expr:action='data:blog.homepageUrl + &quot;search/&quot;' id='searchform' method='get'> 
-        <input id='s' name='q' onblur='if (this.value == &quot;&quot;) {this.value = &quot;Search&quot;;}' onfocus='if (this.value == &quot;Search&quot;) {this.value = &quot;&quot;;}' type='text' value='Search'/>
+        <input aria-label="Search Box" id='s' name='q' onblur='if (this.value == &quot;&quot;) {this.value = &quot;Search&quot;;}' onfocus='if (this.value == &quot;Search&quot;) {this.value = &quot;&quot;;}' type='text' value='Search'/>
     </form>
 </div>
 </div>
@@ -1409,10 +1409,10 @@ window.goog.comments.loadQueue.push(render);
         <b:if cond='!data:showThumbnails'>
           <b:if cond='!data:showSnippets'>
             <!-- (1) No snippet/thumbnail -->
-            <a expr:href='data:post.href'><data:post.title/></a>
+            <a expr:aria-label='data:post.title' expr:href='data:post.href'><data:post.title/></a>
           <b:else/>
             <!-- (2) Show only snippets -->
-            <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
+            <div class='item-title'><a expr:aria-label='data:post.title' expr:href='data:post.href'><data:post.title/></a></div>
             <div class='item-snippet'><data:post.snippet/></div>
           </b:if>
         <b:else/>
@@ -1425,7 +1425,7 @@ window.goog.comments.loadQueue.push(render);
                 </a>
               </div>
             </b:if>
-            <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
+            <div class='item-title'><a expr:aria-label='data:post.title' expr:href='data:post.href'><data:post.title/></a></div>
             <b:if cond='data:showSnippets'>
               <div class='item-snippet'><data:post.snippet/></div>
             </b:if>

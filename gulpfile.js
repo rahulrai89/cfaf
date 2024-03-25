@@ -16,7 +16,7 @@ function styles() {
     // Minify the file
     .pipe(csso())
     // Output
-    .pipe(dest('dist/css'));
+    .pipe(dest('secure/css'));
 }
 
 // Gulp task to minify JavaScript files
@@ -25,12 +25,12 @@ function scripts() {
     // Minify the file
     .pipe(uglify())
     // Output
-    .pipe(dest('dist/js'));
+    .pipe(dest('secure/js'));
 }
 
 // Clean output directory
 function clean() {
-  return del(['dist']);
+  return del(['secure']);
 }
 
 // Gulp task to minify all files
