@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
-<html b:js='false' b:version='2' class='v2' expr:dir='data:blog.languageDirection' lang="en" xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<html b:js='false' b:version='2' class='v2' expr:dir='data:blog.languageDirection' lang='en' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <head>
 <meta charset='UTF-8'/>
 <meta content='width=device-width, initial-scale=1.0' name='viewport'/>
@@ -914,7 +914,7 @@ Share: <a expr:href='&quot;https://www.facebook.com/share.php?v=4&amp;src=bm&amp
 <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
 <b:if cond='data:blog.pageType != &quot;item&quot;'>
 <div class='readmore'>
-<a expr:aria-label='data:post.title' expr:href='data:post.url'>Read More</a>
+<a expr:aria-label='data:post.title' expr:href='data:post.url'>Read the full post.</a>
 </div>
 </b:if>
 </b:if>
@@ -1311,7 +1311,7 @@ window.goog.comments.loadQueue.push(render);
 <div class='widget-container'>
 <div id='search' title='Type and hit enter'>
     <form expr:action='data:blog.homepageUrl + &quot;search/&quot;' id='searchform' method='get'> 
-        <input aria-label="Search Box" id='s' name='q' onblur='if (this.value == &quot;&quot;) {this.value = &quot;Search&quot;;}' onfocus='if (this.value == &quot;Search&quot;) {this.value = &quot;&quot;;}' type='text' value='Search'/>
+        <input aria-label='Search Box' id='s' name='q' onblur='if (this.value == &quot;&quot;) {this.value = &quot;Search&quot;;}' onfocus='if (this.value == &quot;Search&quot;) {this.value = &quot;&quot;;}' type='text' value='Search'/>
     </form>
 </div>
 </div>
@@ -1320,7 +1320,10 @@ window.goog.comments.loadQueue.push(render);
 <b:section class='sidebarpbt' id='rsidebartop' showaddelement='yes'>
   <b:widget id='HTML2' locked='false' title='' type='HTML'>
     <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<img border="0" data-original-height="566" data-original-width="1080" height="168" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXZST1lSVLYTeXRxel4G1k8w0lI3jfcj-563QkyMYsayyWP12CpFgDcKMF9lir7-I2KYZiJFCKtOaLuWHi2BJHPNlVOL1fdyx4O9oJavVb22df-SfsLoyL-A1lNI0JSKtr_wV8IyyjFUGByVrkI3487cHqMvQ-yKgoOXGlRvTD8eFqf8Id-Fao-4HyzL-X/s320/Believe%20in%20Yourself%20and%20Make%20Every%20Day%20Matter%20with%20Code%20for%20a%20Fiction.png" width="100%" height="auto" />]]></b:widget-setting>
+      <b:widget-setting name='content'><![CDATA[<img alt="Belive in yourself" border="0" data-original-height="566" data-original-width="1080" height="168" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXZST1lSVLYTeXRxel4G1k8w0lI3jfcj-563QkyMYsayyWP12CpFgDcKMF9lir7-I2KYZiJFCKtOaLuWHi2BJHPNlVOL1fdyx4O9oJavVb22df-SfsLoyL-A1lNI0JSKtr_wV8IyyjFUGByVrkI3487cHqMvQ-yKgoOXGlRvTD8eFqf8Id-Fao-4HyzL-X/s320/Believe%20in%20Yourself%20and%20Make%20Every%20Day%20Matter%20with%20Code%20for%20a%20Fiction.png" width="100%" style="
+      width: 100%;
+      height: auto;
+  ">]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -1421,7 +1424,7 @@ window.goog.comments.loadQueue.push(render);
             <b:if cond='data:post.thumbnail'>
               <div class='item-thumbnail'>
                 <a expr:aria-label='data:post.title' expr:href='data:post.href' target='_blank'>
-                  <img expr:alt='data:post.title' border='0' expr:src='resizeImage(data:post.thumbnail, 72, &quot;1:1&quot;)'/>
+                  <img border='0' expr:alt='data:post.title' expr:src='resizeImage(data:post.thumbnail, 72, &quot;1:1&quot;)'/>
                 </a>
               </div>
             </b:if>
@@ -1769,7 +1772,7 @@ window.goog.comments.loadQueue.push(render);
 <div id='footer-container'>
 <div id='footer'>   
 <div id='copyrights'>
-Copyright &#169; <script type='text/javascript'>var creditsyear = new Date();document.write(creditsyear.getFullYear());</script> <a expr:href='data:blog.homepageUrl'><data:blog.title/></a> | Powered by <a href='https://www.blogger.com/'>Blogger</a> 
+Copyright &#169; 2024 <a expr:href='data:blog.homepageUrl'><data:blog.title/></a> | Powered by <a href='https://www.blogger.com/'>Blogger</a> 
 </div>
 <!-- you don't have permission to remove or change these  -->     
 <div id='credits'>Design by <a href='#' target='_blank'>Rahul</a> | Blogger Theme by <a href='https://www.codeforafiction.com/' target='_blank' title='Code for a fiction'>Rahul</a> </div>      

@@ -34,10 +34,12 @@ body#layout .social-profiles-widget h3 {
 ====================
 */
 /* Use this with templates/template-twocol.html */
+
 body {
     background: #fff;
     color: #003963;
     font-family: Arimo, Arial, Helvetica, Sans-serif;
+    font-display: swap;
     font-size: 14px;
     line-height: 1.4;
     margin: 0;
@@ -93,26 +95,32 @@ a img {
 
 h1 {
     font: normal bold 40px Arimo, Arial, Helvetica, sans-serif;
+    font-display: swap;
 }
 
 h2 {
     font: normal bold 30px Arimo, Arial, Helvetica, sans-serif;
+    font-display: swap;
 }
 
 h3 {
     font: normal bold 20px Arimo, Arial, Helvetica, sans-serif;
+    font-display: swap;
 }
 
 h4 {
     font: normal bold 16px Arimo, Arial, Helvetica, sans-serif;
+    font-display: swap;
 }
 
 h5 {
     font: normal bold 14px Arimo, Arial, Helvetica, sans-serif;
+    font-display: swap;
 }
 
 h6 {
     font: normal bold 12px Arimo, Arial, Helvetica, sans-serif;
+    font-display: swap;
 }
 
 h1,
@@ -153,6 +161,7 @@ h6 {
     margin: 0;
     padding: 0 0 0 0;
     font: normal bold 24px 'Arimo', Arial, Helvetica, Sans-serif;
+    font-display: swap;
     line-height: 1;
 }
 
@@ -264,6 +273,7 @@ h2.date-header {
     margin: 0 0 10px 0;
     padding: 0;
     font: normal bold 20px 'Arimo', sans-serif;
+    font-display: swap;
     line-height: 1.1;
 }
 
@@ -386,6 +396,7 @@ h3.widgettitle {
     font-size: 16px;
     line-height: 16px;
     font-family: 'Arimo', sans-serif;
+    font-display: swap;
     font-weight: bold;
     text-decoration: none;
     text-transform: none;
@@ -518,6 +529,7 @@ h3.widgettitle {
     font-size: 16px;
     line-height: 16px;
     font-family: 'Arimo', sans-serif;
+    font-display: swap;
     font-weight: bold;
     text-decoration: none;
     text-transform: none;
