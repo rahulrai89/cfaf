@@ -5,9 +5,9 @@
 <meta charset='UTF-8'/>
 <meta content='width=device-width, initial-scale=1.0' name='viewport'/>
 <b:include data='blog' name='all-head-content'/>
-<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'/>
-<link href='https://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'/>
-<link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' rel='stylesheet'/>
+<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700&amp;subset=latin,latin-ext&amp;display=swap' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic&amp;subset=latin,latin-ext&amp;display=swap' rel='stylesheet' type='text/css'/>
+<link as='style' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' rel='preload'/>
 <!-- Start https://www.codeforafiction.com/: Changing the Blogger Title Tag  -->
 <b:if cond='data:blog.pageType == &quot;index&quot;'>
 <title><data:blog.pageTitle/></title> 
@@ -266,7 +266,7 @@ user is not using shrink to fit then we expand the header.
 
 	<!-- Slide 1 Code Start -->
 	<li>
-		<a href='#'><img alt='Baner imager of Code for a fiction' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKTpoaCxzktHaqFUfyB_rw3mhzLXwZpPlO4ayzwoa-x2YNzRwIrDeLXUZRRPY4cwJWeFmw0fjTF-4n9-ycS_Ug721rj51pY1WMrQMTYIdLhb67uQAwF1odd7zR6UHweoxTYlwivI5pq6-PRsY4C6yJpa4xzsGzMcF8jqSAo5DmgZgf9mc/s1600/1.png'/></a>
+		<a href='#'><img alt='Baner imager of Code for a fiction' height='636px' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgv5NxXmkxmnADxxyWXE-Wbz-1Aubfw7pWdhW9dWd7PTtjAkS4IVpGpoNw09aIky5ToabXchfHeBoEjtvuOkjcZ5pqwWL3ZAsFz8VkITNZlSWBRNBbQRieiUct-wodjm3xxq8LHoIPBTrUtDG68oK5hE5NSSuRyhjIpc4DbX90WZ5Rdbr5vBFw4QFYdWvRp/s1361-rw/1.webp' width='2000px'/></a>
 		<div class='flex-slideinfo'>
 			<h3><a href='#'>Welcome to CODE OF A FICTION</a></h3>
 			<p>Syntax of Imagination&#8221; melds the precision of coding with the vastness of creative thought, crafting a digital narrative where every command is a creation.</p>
@@ -1320,10 +1320,10 @@ window.goog.comments.loadQueue.push(render);
 <b:section class='sidebarpbt' id='rsidebartop' showaddelement='yes'>
   <b:widget id='HTML2' locked='false' title='' type='HTML'>
     <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<img alt="Belive in yourself" border="0" data-original-height="566" data-original-width="1080" height="168" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXZST1lSVLYTeXRxel4G1k8w0lI3jfcj-563QkyMYsayyWP12CpFgDcKMF9lir7-I2KYZiJFCKtOaLuWHi2BJHPNlVOL1fdyx4O9oJavVb22df-SfsLoyL-A1lNI0JSKtr_wV8IyyjFUGByVrkI3487cHqMvQ-yKgoOXGlRvTD8eFqf8Id-Fao-4HyzL-X/s320/Believe%20in%20Yourself%20and%20Make%20Every%20Day%20Matter%20with%20Code%20for%20a%20Fiction.png" width="100%" style="
+      <b:widget-setting name='content'><![CDATA[<img alt="Belive in yourself" border="0" data-original-height="566" data-original-width="1080" height="168" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiee53Q7epOAH4AxrEsHzcJNgS5W4Y4P6GO-vWiJ7teWbPLbw9Co_iRbceSLexA_rIKPzXPqMAD9UgSoGQWP-bmJrb-uM_r2D-dt2G7ORAhldkAdAwcC2Ut3mzK_5vL6o8z4fQ59VveGZ5Gn0Y5EEdIUV5mLPHDWLcrMiY1WGL4f_LPo9s/s1600-rw/Believe%20in%20Yourself%20and%20Make%20Every%20Day%20Matter%20with%20Code%20for%20a%20Fiction.webp" width="100%" style="
       width: 100%;
       height: auto;
-  ">]]></b:widget-setting>
+  " />]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -1600,52 +1600,6 @@ window.goog.comments.loadQueue.push(render);
 
 <div style='height:5px;clear:both;'/>
 
-<b:section class='sidebarpbt' id='sidebarright' preferred='yes'>
-  <b:widget id='Profile1' locked='false' title='About Me' type='Profile'>
-    <b:widget-settings>
-      <b:widget-setting name='showaboutme'>true</b:widget-setting>
-      <b:widget-setting name='showlocation'>true</b:widget-setting>
-    </b:widget-settings>
-    <b:includable id='main'>
-    <b:if cond='data:title != &quot;&quot;'>
-      <h2><data:title/></h2>
-    </b:if>
-    <div class='widget-content'>
-    <b:if cond='data:team'> <!-- team blog profile -->
-      <ul>
-        <b:loop values='data:authors' var='i'>
-          <li><a class='profile-name-link g-profile' expr:href='data:i.userUrl' expr:style='&quot;background-image: url(&quot; + data:i.profileLogo + &quot;);&quot;'><data:i.display-name/></a></li>
-        </b:loop>
-      </ul>
-
-    <b:else/> <!-- normal blog profile -->
-
-      <b:if cond='data:photo.url != &quot;&quot;'>
-        <a expr:href='data:userUrl'><img class='profile-img' expr:alt='data:messages.myPhoto' expr:height='data:photo.height' expr:src='data:photo.url' expr:width='data:photo.width'/></a>
-      </b:if>
-
-      <dl class='profile-datablock'>
-        <dt class='profile-data'>
-          <a class='profile-name-link g-profile' expr:href='data:userUrl' expr:style='&quot;background-image: url(&quot; + data:profileLogo + &quot;);&quot;' rel='author'>
-            <data:displayname/>
-          </a>
-        </dt>
-
-        <b:if cond='data:showlocation'>
-          <dd class='profile-data'><data:location/></dd>
-        </b:if>
-
-        <b:if cond='data:aboutme != &quot;&quot;'><dd class='profile-textblock'><data:aboutme/></dd></b:if>
-      </dl>
-      <a class='profile-link' expr:href='data:userUrl' rel='author'><data:viewProfileMsg/></a>
-    </b:if>
-
-     <b:include name='quickedit'/>
-    </div>
-  </b:includable>
-  </b:widget>
-</b:section>
-
 </div>
 
 <!-- spacer for skins that want sidebar and main to be the same height-->
@@ -1666,7 +1620,7 @@ window.goog.comments.loadQueue.push(render);
 <b:section class='footersec' id='footersec1' showaddelement='yes'>
   <b:widget id='HTML4' locked='false' title='' type='HTML'>
     <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<img alt="Code for a fiction" height="auto; " id="Header1_headerimg" src="https://blogger.googleusercontent.com/img/a/AVvXsEhuOY7Zd4vsJdtXHmNVAdZ2IZgJP_MXCwT-Aoz9UfaKBhT7dTHGwUoy872FPGtv4JImXK9G1sOKvmsgEKmc9uLSu0r1cktVqOzhqpXouRjk0S2uRJNzPI_E0g58mhZof7WeBA9vyz43kSMrEBBFO4aIP0TrpeiDudVFIOEldLQBOIem1g_t5HCzYprmJ--P=s1600" style="display: block;padding-left:0px;padding-top:0px;" width="100%; " />]]></b:widget-setting>
+      <b:widget-setting name='content'><![CDATA[<img  width="2000px" height="636px" alt="Code for a fiction" height="auto; " id="Header1_headerimg" src="https://blogger.googleusercontent.com/img/a/AVvXsEhuOY7Zd4vsJdtXHmNVAdZ2IZgJP_MXCwT-Aoz9UfaKBhT7dTHGwUoy872FPGtv4JImXK9G1sOKvmsgEKmc9uLSu0r1cktVqOzhqpXouRjk0S2uRJNzPI_E0g58mhZof7WeBA9vyz43kSMrEBBFO4aIP0TrpeiDudVFIOEldLQBOIem1g_t5HCzYprmJ--P=s1600" style="display: block;padding-left:0px;padding-top:0px;height:auto;" " />]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
